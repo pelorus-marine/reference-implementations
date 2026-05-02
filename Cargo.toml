@@ -1,7 +1,7 @@
 [workspace]
 resolver = "2"
-members = ["pelorus-gnss"]
-default-members = ["pelorus-gnss"]
+members = ["pelorus-gnss", "pelorus-gateway"]
+default-members = ["pelorus-gnss", "pelorus-gateway"]
 
 [workspace.lints.rust]
 unsafe_code = "forbid"

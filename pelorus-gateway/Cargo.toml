@@ -1,0 +1,11 @@
+[package]
+name = "pelorus-gateway"
+version = "0.1.0"
+edition = "2021"
+description = "Pelorus reference gateway — LMDE ↔ Pelorus Core bridge (09-gateway-specification)"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/pelorus-marine/reference-implementations"
+readme = "README.md"
+
+[lints]
+workspace = true
