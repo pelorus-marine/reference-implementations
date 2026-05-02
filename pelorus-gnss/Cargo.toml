@@ -1,0 +1,9 @@
+[package]
+name = "pelorus-gnss"
+version = "0.1.0"
+edition = "2021"
+description = "Pelorus Core first-stack hardware pairing reference (GNSS, antenna, MCU)"
+license = "MIT OR Apache-2.0"
+
+[lints]
+workspace = true
