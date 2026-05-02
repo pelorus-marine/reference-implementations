@@ -4,6 +4,7 @@ version = "0.1.1"
 edition.workspace = true
 rust-version.workspace = true
 license.workspace = true
+authors.workspace = true
 repository.workspace = true
 publish = false
 description = "Pelorus reference gateway — LMDE ↔ Pelorus Core bridge (09-gateway-specification)"
