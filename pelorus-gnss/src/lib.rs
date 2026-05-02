@@ -52,8 +52,7 @@ pub mod antenna {
         "dual-band active GNSS antenna, ~28 dB-class gain, 2.7–5.5 V bias";
 
     /// Fixed-mount / exposed reference rig guidance.
-    pub const FIXED_MOUNT_NOTE: &str =
-        "prefer marine/outdoor IP-rated antenna and short low-loss coax (often TNC/SMA pigtail); follow ground plane guidance from the antenna datasheet—critical for stable phase center for RTK.";
+    pub const FIXED_MOUNT_NOTE: &str = "prefer marine/outdoor IP-rated antenna and short low-loss coax (often TNC/SMA pigtail); follow ground plane guidance from the antenna datasheet—critical for stable phase center for RTK.";
 }
 
 /// Ideal MCU development board and bench additions.
@@ -73,8 +72,7 @@ pub mod mcu {
     ];
 
     /// Practical bench combo for proving GNSS → Pelorus CAN FD before M12 cable plants.
-    pub const PRACTICAL_COMBO: &str =
-        "NUCLEO-G474RE + ZED-F9P breakout (UART to MCU) + CAN FD transceiver shield/breakout + bench termination";
+    pub const PRACTICAL_COMBO: &str = "NUCLEO-G474RE + ZED-F9P breakout (UART to MCU) + CAN FD transceiver shield/breakout + bench termination";
 }
 
 /// One row of the reference summary table (`Role` → suggested part class).
@@ -88,8 +86,7 @@ pub struct SummaryRow {
 pub const SUMMARY_TABLE: &[SummaryRow] = &[
     SummaryRow {
         role: "GNSS RF engine",
-        suggested_part_class:
-            "u-blox ZED-F9P (first ref); ZED-X20P if maximum longevity / bands",
+        suggested_part_class: "u-blox ZED-F9P (first ref); ZED-X20P if maximum longevity / bands",
     },
     SummaryRow {
         role: "GNSS carrier board",
@@ -101,8 +98,7 @@ pub const SUMMARY_TABLE: &[SummaryRow] = &[
     },
     SummaryRow {
         role: "MCU dev board",
-        suggested_part_class:
-            "NUCLEO-G474RE (dual CAN FD) + separate CAN FD transceiver hardware",
+        suggested_part_class: "NUCLEO-G474RE (dual CAN FD) + separate CAN FD transceiver hardware",
     },
 ];
 

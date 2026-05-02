@@ -1,3 +1,9 @@
+[workspace.package]
+edition = "2024"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/pelorus-marine/reference-implementations"
+rust-version = "1.88.0"
+
 [workspace]
 resolver = "2"
 members = ["pelorus-gnss", "pelorus-gateway"]
