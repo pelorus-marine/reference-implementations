@@ -1,4 +1,4 @@
-# Pelorus reference crates — match platform/specifications Rust **1.88** + fmt/clippy discipline.
+# Pelorus reference crates — match platform/specifications Rust **1.90** + fmt/clippy discipline.
 
 name: CI
 
@@ -10,7 +10,7 @@ on:
 
 env:
   CARGO_TERM_COLOR: always
-  RUST_TOOLCHAIN: "1.88.0"
+  RUST_TOOLCHAIN: "1.90.0"
 
 jobs:
   rust:
